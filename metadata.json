@@ -1,0 +1,7 @@
+{
+    "uuid": "yubikey-touch-alert@crimsonfez.github.com",
+    "name": "YubiKey Touch Alert",
+    "description": "alert you when a yubikey is requiring presence confirmation",
+    "shell-version": ["50"],
+    "settings-schema": "org.gnome.shell.extensions.yubikey-touch-alert"
+}

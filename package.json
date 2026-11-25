@@ -1,0 +1,28 @@
+{
+  "name": "yubikey-touch-alert",
+  "version": "0.0.1",
+  "description": "A TypeScript GNOME Extension",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrimsonFez/yubikey-touch-alert.git"
+  },
+  "author": "David Kovari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrimsonFez/yubikey-touch-alert/issues"
+  },
+  "homepage": "https://github.com/CrimsonFez/yubikey-touch-alert",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@girs/gjs": "^5.6.0",
+    "@girs/gnome-shell": "^51.0.1"
+  }
+}
