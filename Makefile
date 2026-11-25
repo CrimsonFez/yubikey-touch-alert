@@ -26,3 +26,6 @@ install: $(NAME).zip
 
 clean:
 	@rm -rf dist node_modules $(NAME).zip
+
+dev: install
+	dbus-run-session -- gnome-shell --devkit --wayland
